@@ -1,0 +1,35 @@
+//效果卷轴
+//20.睡眠(debuff)  28.麻痹(debuff)  29.减速(debuff) 
+//2C.眩晕 2D.快速 2F.迷惑(debuff) 
+//30.恐惧(debuff) 31.夜视 32.陷阱探测 33.隐身 34.失明(debuff)  36.看到隐形生物 37.虚无缥缈 38.再生 39.温热灵气
+//3B.吸血灵气 3C.圣光灵气 
+//42.虚弱(debuff) 45.武器精通 46.弓箭精通 48.燃烧(debuff) 49.冻结(debuff)
+//4A.探测陷阱和暗门 4E.聪慧
+//50.隔空取物 51.反弹 53.黄油手(debuff) 55.被束缚(debuff) 56.寻死(debuff) 57.影响意识(debuff) 58.精神崩溃(debuff) 
+//5A.精神控制 5D.混乱 5E.烈风幻影 5F.爆裂箭
+//60.闪电冲击 61.力劈华山 62.电容器 65.致命打击数:10 66.???
+
+//DE
+mov ebx,[0x00DBF1E8]
+
+
+MOV ECX,[0x00DBF1EC]
+ADD ECX, 0xA788
+MOV DWORD PTR DS:[0x01477084], ECX
+
+mov EDX,[ebx+0x50C]
+mov EAX,0x0
+mov EBP,0x2D
+mov EDI,0xA
+mov ECX,0x2D 
+
+
+
+PUSH EDX
+PUSH EAX
+PUSH EBP
+PUSH EDI
+PUSH ECX
+MOV ECX,EBX
+mov eax, 0x44EBC0
+call eax

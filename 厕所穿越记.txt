@@ -1,0 +1,115 @@
+//全屏点灯
+mov ebx,[00DBF1E8]
+mov EDX,[ebx+0x50C]
+mov EAX,0x0
+mov EBP,0x0
+mov EDI,0x0
+mov ECX,0xD8
+
+PUSH EDX
+PUSH EAX
+PUSH EBP
+PUSH EDI
+PUSH ECX
+MOV ECX,EBX
+mov eax, 0x44EBC0
+call eax
+
+
+//扩展背包
+mov ebx,[00DBF1E8]
+mov EDX,[ebx+0x50C]
+mov EAX,0xD5
+mov EBP,0x10
+mov EDI,0x1
+mov ECX,0xEC
+
+//任务提示
+mov EDX,[ebx+0x50C]
+mov EAX,0x0
+mov EBP,0x0
+mov EDI,0x0
+mov ECX,0xDB
+
+//当前使用武器变玩具锤 没卵用
+mov ECX,0xD1
+
+//初始化技能点数
+mov ECX,0xCB
+
+
+//传送到位置
+mov ebx,[0x00DBF1E8]
+
+
+MOV ECX,[0x00DBF1EC]
+ADD ECX, 0xA788
+MOV DWORD PTR DS:[0x01477084], ECX
+
+mov EDX,[ebx+0x50C]
+mov EAX,0xCE
+mov EBP,0x0
+mov EDI,0x16   //1A 卓然商店  7D 佐罗克厨房  3B花园区域商店
+mov ECX,0xC9
+
+
+
+PUSH EDX
+PUSH EAX
+PUSH EBP
+PUSH EDI
+PUSH ECX
+MOV ECX,EBX
+mov eax, 0x44EBC0
+call eax
+
+
+//传送到任务人
+mov ebx,[0x00DBF1E8]
+
+
+MOV ECX,[0x00DBF1EC]
+ADD ECX, 0xA788
+MOV DWORD PTR DS:[0x01477084], ECX
+
+mov EDX,[ebx+0x50C]
+mov EAX,0x0
+mov EBP,0x0
+mov EDI,0x0
+mov ECX,0xDC
+
+
+
+PUSH EDX
+PUSH EAX
+PUSH EBP
+PUSH EDI
+PUSH ECX
+MOV ECX,EBX
+mov eax, 0x44EBC0
+call eax
+
+//强化当前武器
+mov ebx,[0x00DBF1E8]
+
+
+MOV ECX,[0x00DBF1EC]
+ADD ECX, 0xA788
+MOV DWORD PTR DS:[0x01477084], ECX
+
+mov EDX,[ebx+0x50C]
+mov EAX,0x0
+mov EBP,0x0
+mov EDI,0x14
+mov ECX,0xED
+
+
+
+PUSH EDX
+PUSH EAX
+PUSH EBP
+PUSH EDI
+PUSH ECX
+MOV ECX,EBX
+mov eax, 0x44EBC0
+call eax
