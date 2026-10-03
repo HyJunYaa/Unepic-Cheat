@@ -113,3 +113,31 @@ PUSH ECX
 MOV ECX,EBX
 mov eax, 0x44EBC0
 call eax
+
+
+//创建物品
+mov eax,0x318				//X坐标
+mov ecx,0x008E05F8			//当前房间
+mov edx,0xF0				//Y坐标
+mov edi,0x02C50000			//物品名称地址
+
+PUSH 0x1					//生成数量
+PUSH EDX
+PUSH EAX
+PUSH EDI
+CALL 0x00422C40
+
+
+//给自己添加物品
+mov eax,[0x00DBF1E8]
+mov ecx,[eax+0x1038]
+
+mov edx,0x0
+mov eax,0x0
+mov edi,0x02D00000
+
+PUSH 0x1
+PUSH EDX
+PUSH EAX
+PUSH EDI
+CALL 0x00422C40

@@ -9,12 +9,42 @@
       <Address>unepic.exe+9BF1E8</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>164</ID>
+      <Description>"角色基址??"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>unepic.exe+9BF1E8</Address>
+      <Offsets>
+        <Offset>1038</Offset>
+      </Offsets>
+    </CheatEntry>
+    <CheatEntry>
       <ID>159</ID>
       <Description>"?"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>unepic.exe+9BF1E8+4</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>163</ID>
+      <Description>"无描述"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>0x0146C008</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>162</ID>
+      <Description>"无描述"</Description>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>String</VariableType>
+      <Length>100</Length>
+      <Unicode>0</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>02D30000</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>158</ID>
@@ -359,6 +389,7 @@ A1 2C 23 67 00 8B 15 30 23 67 00:还原
     <CheatEntry>
       <ID>135</ID>
       <Description>"当前房间"</Description>
+      <Options moManualExpandCollapse="1"/>
       <ShowAsHex>1</ShowAsHex>
       <VariableType>4 Bytes</VariableType>
       <Address>unepic.exe+3DFA74</Address>
@@ -429,13 +460,6 @@ A1 2C 23 67 00 8B 15 30 23 67 00:还原
       <ShowAsHex>1</ShowAsHex>
       <VariableType>4 Bytes</VariableType>
       <Address>unepic.exe+1129C84</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>154</ID>
-      <Description>"无描述"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>4 Bytes</VariableType>
-      <Address>2073C7D4</Address>
     </CheatEntry>
   </CheatEntries>
   <CheatCodes>
