@@ -10,7 +10,7 @@
     </CheatEntry>
     <CheatEntry>
       <ID>164</ID>
-      <Description>"角色基址??"</Description>
+      <Description>"??? 有用? 我忘了"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
@@ -20,54 +20,34 @@
       </Offsets>
     </CheatEntry>
     <CheatEntry>
-      <ID>159</ID>
-      <Description>"?"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>unepic.exe+9BF1E8+4</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>163</ID>
-      <Description>"无描述"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>0x0146C008</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>162</ID>
-      <Description>"无描述"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>String</VariableType>
-      <Length>100</Length>
-      <Unicode>0</Unicode>
-      <CodePage>0</CodePage>
-      <ZeroTerminate>1</ZeroTerminate>
-      <Address>02D30000</Address>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>158</ID>
-      <Description>"无描述"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>4 Bytes</VariableType>
-      <Address>unepic.exe+1077084</Address>
-    </CheatEntry>
-    <CheatEntry>
       <ID>160</ID>
-      <Description>"奥术"</Description>
+      <Description>"奥术??? 也忘了干什么用的"</Description>
       <ShowAsHex>1</ShowAsHex>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
       <Address>0x008F7BC8</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>161</ID>
-      <Description>"无描述"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>0x008F87DC</Address>
+      <ID>167</ID>
+      <Description>"添加物品相关"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <GroupHeader>1</GroupHeader>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>165</ID>
+          <Description>"房间指针"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>4 Bytes</VariableType>
+          <Address>unepic.exe+3346E8</Address>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>166</ID>
+          <Description>"房间指针"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <VariableType>4 Bytes</VariableType>
+          <Address>unepic.exe+9BF1EC</Address>
+        </CheatEntry>
+      </CheatEntries>
     </CheatEntry>
     <CheatEntry>
       <ID>143</ID>
@@ -77,27 +57,6 @@
       <Address>unepic.exe+9BF1E8</Address>
       <Offsets>
         <Offset>688</Offset>
-      </Offsets>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>151</ID>
-      <Description>"???"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>unepic.exe+9BF1E8</Address>
-      <Offsets>
-        <Offset>5C8</Offset>
-      </Offsets>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>155</ID>
-      <Description>"???"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>unepic.exe+9BF1E8</Address>
-      <Offsets>
-        <Offset>1254</Offset>
       </Offsets>
     </CheatEntry>
     <CheatEntry>
@@ -336,7 +295,7 @@ A1 2C 23 67 00 8B 15 30 23 67 00:还原
     </CheatEntry>
     <CheatEntry>
       <ID>144</ID>
-      <Description>"UN积分"</Description>
+      <Description>"消耗UN积分"</Description>
       <VariableType>4 Bytes</VariableType>
       <Address>unepic.exe+9A73E0</Address>
     </CheatEntry>
@@ -448,18 +407,22 @@ A1 2C 23 67 00 8B 15 30 23 67 00:还原
       </Offsets>
     </CheatEntry>
     <CheatEntry>
-      <ID>152</ID>
+      <ID>168</ID>
       <Description>"无描述"</Description>
-      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
       <VariableType>4 Bytes</VariableType>
-      <Address>unepic.exe+9AC0F4</Address>
+      <Address>0x6210E0</Address>
     </CheatEntry>
     <CheatEntry>
-      <ID>153</ID>
+      <ID>169</ID>
       <Description>"无描述"</Description>
-      <ShowAsHex>1</ShowAsHex>
-      <VariableType>4 Bytes</VariableType>
-      <Address>unepic.exe+1129C84</Address>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>String</VariableType>
+      <Length>100</Length>
+      <Unicode>1</Unicode>
+      <CodePage>0</CodePage>
+      <ZeroTerminate>1</ZeroTerminate>
+      <Address>01B01058</Address>
     </CheatEntry>
   </CheatEntries>
   <CheatCodes>

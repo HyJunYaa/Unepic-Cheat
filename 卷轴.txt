@@ -19,9 +19,9 @@ MOV DWORD PTR DS:[0x01477084], ECX
 
 mov EDX,[ebx+0x50C]
 mov EAX,0x0
-mov EBP,0x2D
-mov EDI,0xA
-mov ECX,0x2D 
+mov EBP,0x2D			//持续时间
+mov EDI,0xA				//???
+mov ECX,0x2D			//ID
 
 
 
@@ -33,3 +33,5 @@ PUSH ECX
 MOV ECX,EBX
 mov eax, 0x44EBC0
 call eax
+
+

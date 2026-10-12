@@ -115,6 +115,10 @@ mov eax, 0x44EBC0
 call eax
 
 
+
+//unepic.exe+3346E8
+//unepic.exe+9BF1EC
+//地址值 + 0xBCA4
 //创建物品
 mov eax,0x318				//X坐标
 mov ecx,0x008E05F8			//当前房间
@@ -129,8 +133,8 @@ CALL 0x00422C40
 
 
 //给自己添加物品
-mov eax,[0x00DBF1E8]
-mov ecx,[eax+0x1038]
+mov ecx,[0x00DBF1E8]
+mov ecx,[ecx+0x1038]
 
 mov edx,0x0
 mov eax,0x0
@@ -141,3 +145,30 @@ PUSH EDX
 PUSH EAX
 PUSH EDI
 CALL 0x00422C40
+
+
+//全屏吸物
+mov ebx,[0x00DBF1E8]
+
+MOV ECX,[0x00DBF1EC]
+
+MOV DWORD PTR DS:[0x013BF5FC], ECX
+
+ADD ECX, 0xA788
+MOV DWORD PTR DS:[0x01477084], ECX
+mov EDX,[ebx+0x50C]
+mov EAX,0x0
+mov EBP,0x0
+mov EDI,0x0
+mov ECX,0xFA
+
+
+
+PUSH EDX
+PUSH EAX
+PUSH EBP
+PUSH EDI
+PUSH ECX
+MOV ECX,EBX
+mov eax, 0x44EBC0
+call eax
