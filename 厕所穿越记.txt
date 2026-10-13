@@ -172,3 +172,10 @@ PUSH ECX
 MOV ECX,EBX
 mov eax, 0x44EBC0
 call eax
+
+//召唤铁魔像
+mov EDX,[ebx+0x50C]
+mov EAX,0x0
+mov EBP,0x0
+mov EDI,0xDE
+mov ECX,0xDA
