@@ -9,6 +9,61 @@
       <Address>unepic.exe+9BF1E8</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>170</ID>
+      <Description>"背包"</Description>
+      <Options moManualExpandCollapse="1"/>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>unepic.exe+9BF1E8</Address>
+      <Offsets>
+        <Offset>1038</Offset>
+      </Offsets>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>173</ID>
+          <Description>"物品数"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>unepic.exe+9BF1E8</Address>
+          <Offsets>
+            <Offset>8</Offset>
+            <Offset>1038</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>175</ID>
+          <Description>"物品列表头"</Description>
+          <ShowAsHex>1</ShowAsHex>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>unepic.exe+9BF1E8</Address>
+          <Offsets>
+            <Offset>10+0*AC</Offset>
+            <Offset>1038</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>171</ID>
+          <Description>"格数"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>unepic.exe+9BF1E8</Address>
+          <Offsets>
+            <Offset>16014</Offset>
+            <Offset>1038</Offset>
+          </Offsets>
+        </CheatEntry>
+        <CheatEntry>
+          <ID>172</ID>
+          <Description>"列数"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>unepic.exe+9A7410</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
       <ID>164</ID>
       <Description>"??? 有用? 我忘了"</Description>
       <ShowAsHex>1</ShowAsHex>
@@ -28,6 +83,43 @@
       <Address>0x008F7BC8</Address>
     </CheatEntry>
     <CheatEntry>
+      <ID>177</ID>
+      <Description>"房间对象容器"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>unepic.exe+455150</Address>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>178</ID>
+          <Description>"房间对象容器"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>unepic.exe+455150+C</Address>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>180</ID>
+      <Description>"关卡对象基址"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>4 Bytes</VariableType>
+      <Address>unepic.exe+9BF1EC</Address>
+      <CheatEntries>
+        <CheatEntry>
+          <ID>179</ID>
+          <Description>"关卡内对象数"</Description>
+          <ShowAsSigned>0</ShowAsSigned>
+          <VariableType>4 Bytes</VariableType>
+          <Address>unepic.exe+9BF1EC</Address>
+          <Offsets>
+            <Offset>0xBA98</Offset>
+          </Offsets>
+        </CheatEntry>
+      </CheatEntries>
+    </CheatEntry>
+    <CheatEntry>
       <ID>167</ID>
       <Description>"添加物品相关"</Description>
       <Options moManualExpandCollapse="1"/>
@@ -42,7 +134,7 @@
         </CheatEntry>
         <CheatEntry>
           <ID>166</ID>
-          <Description>"房间指针"</Description>
+          <Description>"关卡对象基址"</Description>
           <ShowAsHex>1</ShowAsHex>
           <VariableType>4 Bytes</VariableType>
           <Address>unepic.exe+9BF1EC</Address>
@@ -148,6 +240,18 @@
       <Offsets>
         <Offset>6F8</Offset>
       </Offsets>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>174</ID>
+      <Description>"全屏捡物"</Description>
+      <DropDownList ReadOnly="1" DisplayValueAsItem="1">8B 44 24 1C:还原
+EB 71 90 90:修改
+</DropDownList>
+      <ShowAsHex>1</ShowAsHex>
+      <ShowAsSigned>0</ShowAsSigned>
+      <VariableType>Array of byte</VariableType>
+      <ByteLength>4</ByteLength>
+      <Address>unepic.exe+0x21F1F</Address>
     </CheatEntry>
     <CheatEntry>
       <ID>81</ID>
@@ -407,13 +511,6 @@ A1 2C 23 67 00 8B 15 30 23 67 00:还原
       </Offsets>
     </CheatEntry>
     <CheatEntry>
-      <ID>168</ID>
-      <Description>"无描述"</Description>
-      <ShowAsSigned>0</ShowAsSigned>
-      <VariableType>4 Bytes</VariableType>
-      <Address>0x6210E0</Address>
-    </CheatEntry>
-    <CheatEntry>
       <ID>169</ID>
       <Description>"无描述"</Description>
       <ShowAsSigned>0</ShowAsSigned>
@@ -423,6 +520,20 @@ A1 2C 23 67 00 8B 15 30 23 67 00:还原
       <CodePage>0</CodePage>
       <ZeroTerminate>1</ZeroTerminate>
       <Address>01B01058</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>183</ID>
+      <Description>"Harnakon"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>4 Bytes</VariableType>
+      <Address>unepic.exe+4324C8</Address>
+    </CheatEntry>
+    <CheatEntry>
+      <ID>182</ID>
+      <Description>"Harnakon"</Description>
+      <ShowAsHex>1</ShowAsHex>
+      <VariableType>4 Bytes</VariableType>
+      <Address>unepic.exe+106BDFC</Address>
     </CheatEntry>
   </CheatEntries>
   <CheatCodes>
